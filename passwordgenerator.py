@@ -14,7 +14,7 @@ def password():
         minhasenha = ''
 
         
-        for _ in range(senhalength):
+        for _ in range(pwlength):
             minhasenha += chr(randint(33, 126))
 
         senha1.insert(0, minhasenha)  
